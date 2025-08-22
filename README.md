@@ -10,7 +10,7 @@ Paste your email content → get multiple concise, catchy subject line ideas.
 - ⬇️ Copy/Export (CSV) ready (if enabled in UI)
 
 ## Live Demo
-Try it on Hugging Face Spaces: https://huggingface.co/spaces/<your-username>/<your-space-name>
+Try it on Hugging Face Spaces: [https://huggingface.co/spaces/<your-username>/<your-space-name>]#(https://huggingface.co/spaces/avishk700/Email)
 
 ## How to Use
 1. First load may take ~30s while the model initializes.
