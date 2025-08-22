@@ -1,0 +1,7 @@
+streamlit>=1.48.0
+requests
+
+transformers>=4.42.0
+torch
+safetensors
+sentencepiece
