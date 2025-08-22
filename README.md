@@ -1,26 +1,25 @@
-<<<<<<< HEAD
-# Email-subject-generator
-=======
 # 📧 Email Subject Line Generator (Free, No API)
 
+Paste your email content → get multiple concise, catchy subject line ideas.
 
-Paste your email content → get multiple catchy subject line ideas.
-
-
+**Why it’s cool**
 - 🚫 No API keys, no usage bills
-- 🧠 Open-source LLM (TinyLlama 1.1B Chat) running on free CPU
-- 🎛️ Options for tone, word limits, creativity
-- ⬇️ Download CSV of results
+- 🧠 Open-source LLM (Qwen2.5-0.5B Instruct on free CPU)
+- 🎛️ Options: tone, count, max words, temperature, seed
+- 📝 Optional preheader line generation
+- ⬇️ Copy/Export (CSV) ready (if enabled in UI)
 
+## Live Demo
+Try it on Hugging Face Spaces: https://huggingface.co/spaces/<your-username>/<your-space-name>
 
-## How to use
-1. Wait ~30 seconds on first load while the model downloads.
+## How to Use
+1. First load may take ~30s while the model initializes.
 2. Paste your email body.
-3. Adjust tone / count / word limit.
+3. Adjust tone / count / word limit / creativity.
 4. Click **Generate**.
 
-
-## Notes
-- Small open models are great for subject lines, but not as strong as GPT‑4.
-- If usage grows, you can swap the backend to paid APIs and keep the same UI.
->>>>>>> fe0fb11 (Initial commit: Email Subject Line Generator)
+## Run Locally
+```bash
+pip install -r requirements.txt
+python app.py
+# or: gradio app:demo
